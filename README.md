@@ -1,4 +1,5 @@
 pennasb.github.com
 ==================
 
-Penn ASB website | by Andrew Ma, 2012
+Penn ASB website
+Andrew Ma, 2012
