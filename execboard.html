@@ -1,13 +1,27 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Penn Alternate Spring Break</title>
 		
 		<link rel="stylesheet" type="text/css" href="asb.css">
-		<script type="text/javascript">/*<![CDATA[*/var el="back";var bgimg=new Array("images/alamosafinal.jpg", "images/libhallfinal.jpg", "images/patfinal.jpg", "images/rachelfinal.jpg");var random=Math.round((bgimg.length-1)*Math.random());var cssStr="html"+" { background: url("+bgimg[random]+") no-repeat center center fixed } ";var style=document.createElement("style");style.setAttribute("type","text/css");if(style.styleSheet){style.styleSheet.cssText=cssStr;}else{var cssText=document.createTextNode(cssStr);style.appendChild(cssText);}document.getElementsByTagName("head")[0].appendChild(style);/*]]>*/</script>
+		<script type="text/javascript">/*<![CDATA[*/var el="back";var bgimg=new Array("images/alamosafinal.jpg", "images/libhallfinal.jpg", "images/rachelfinal.jpg");var random=Math.round((bgimg.length-1)*Math.random());var cssStr="html"+" { background: url("+bgimg[random]+") no-repeat center center fixed } ";var style=document.createElement("style");style.setAttribute("type","text/css");if(style.styleSheet){style.styleSheet.cssText=cssStr;}else{var cssText=document.createTextNode(cssStr);style.appendChild(cssText);}document.getElementsByTagName("head")[0].appendChild(style);/*]]>*/</script>
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script type="text/javascript" src="listserv.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.bio').hide();
+				$('.board-member').click(function() {
+					if ($(this).children('.bio').is(':hidden')) {
+						$(this).children('.bio').slideDown();
+					} else {
+						$(this).children('.bio').slideUp();
+					}
+				});
+			});
+		</script>
+		<link rel="stylesheet" href="font-awesome.css">
 	</head>
 
 	<body>
@@ -37,22 +51,92 @@
 
  	 	<div id="content">
  			<h2>2012-2013 Executive Board</h2>
- 			<p>Co-Director: Mallika Vinekar '13
- 			<p>Co-Director: Bre Medford '13
- 			<p>Habitat Coordinator: Alec Barnes '14
- 			<p>Breakaway Coordinator: Andrew Ma '13
- 			<p>Winter Break Coordinator: Michael Josephs '14
- 			<p>Communications and Outreach Coordinator: Langston Varnadore '14
- 			<p>Finance Coordinator: Loren Kole '14
- 			<p>Fundraising Coordinator: Franco Nilo '13
- 			<p>Fundraising Coordinator: Michael Broder '14
- 			<p>Travel Coordinator: Nick Pesta '14
+ 			<div class="board-member">
+ 				<div class="name">Mallika Vinekar '13</div>
+ 				<div class="title">Co-Director</div>
+ 				<i class="icon-chevron-down"></i>
+	 			<div class="bio">
+	 				Mallika is a senior at Penn majoring in Urban Studies and Political Science. Originally from New Jersey, Mallika has been active on ASBoard since her sophomore year. At Penn, she is also involved with the Critical Writing Center, Let's Get Ready and the Nominations and Elections Committee. Mallika is a strong supporter of Trader Joe's lentil chips and Paul Krugman op-ed columns. 
+	 			</div>
+ 			</div>
+ 			<div class="board-member">
+ 				<div class="name">Bre Medford '13</div>
+ 				<div class="title">Co-Director</div>
+ 				<i class="icon-chevron-down"></i>
+	 			<div class="bio">
+	 				Bre, a College senior, has been a member of Alternate Spring Break since her sophomore year. She has been to Best Friends Sanctuary in Kanab, UT and Punta Gorda, FL. She absolutely loves ASB and Bre's goal is to introduce more Penn students to the organization. Also involved in the education non-profit Student Leadership Project and HerCampus, Bre is an avid fan of the Penn Field Hockey team. 
+	 			</div>
+			</div>
+  			<div class="board-member">
+ 				<div class="name">Alec Barnes '14</div>
+  				<div class="title">Habitat Coordinator</div>
+ 				<i class="icon-chevron-down"></i>
+		 		<div class="bio">
+					Major: Finance
+					Hometown: Sudbury, MA
+					Interests: Running (ran XC for Penn for a semester), Radio (have a
+					show at Penn), Korean food, U of Alabama football
+	 			</div>
+ 			</div>
+ 			<div class="board-member">
+ 				<div class="name">Andrew Ma '13</div>
+ 				<div class="title">Breakaway Coordinator</div>
+ 				<i class="icon-chevron-down"></i>
+ 				<div class="bio">
+ 					Andrew is a senior in the College and Wharton studying mathematics and business. This is his second year on ASB board and has been involved with ASB since his freshman year trip to Denver. He is originally from Northern California. He enjoys cycling and ethnic foods. 
+ 				</div>
+ 			</div>
+ 			<div class="board-member">
+ 				<div class="name">Michael Josephs '14</div>
+ 				<div class="title">Winter Break Coordinator</div>
+  				<i class="icon-chevron-down"></i>
+  				<div class="bio">
+  					Michael Josephs is majoring in biology and Hispanic studies at Penn.  Freshman year, he participated in ASB on an organic farming trip to Purcellville, VA, and sophomore year he led a trip to San Juan, TX to work with Mexican immigrants and undocumented people. Michael is super excited about the new Winter Break Coordinator Position and has a couple of new breakaway trips in the works!  Outside of ASB, Michael works in a neurobiology lab, teaches ESL to Latina women in South Philly, volunteers at the Puentes de Salud clinic, and helps run DoubleSpeak, Penn's premiere foreign language translation magazine.  When he is not doing any of these things, you will most likely find him running in the Woodland Cemetery or biking to Wissachickon.
+  				</div>
+			</div>
+ 			<div class="board-member">
+ 				<div class="name">Langston Varnadore '14</div>
+ 				<div class="title">Communications & Outreach Coordinator</div>
+ 				<i class="icon-chevron-down"></i>
+ 				<div class="bio">
+ 					My name is Langston Varnadore and I am the communication and outreach coordinator for this years ASB board. I am so excited about my position and I know that this is going to be a great year for ASB! I am a junior in the college and I am majoring in communications. I've lived in Philadelphia my entire life, so I really love the city and all the great things it has to offer. I  first got involved with ASB as a freshman, when I went on a spring break trip to the Best Friends Animal Shelter in Kanab, UT. I met some of my closest friends at Penn on my freshman ASB trip. I enjoyed that first expierience so much that I decided to go on another ASB trip during my sohphomore spring break. I went to the Florida Everglades, and once again had an awesome time and made a bunch of great friends that I still keep in touch with today. I am very passionate about ASB and I am so excited to be involved in all the fun things that we have coming up this year!
+ 				</div>
+ 			</div>
+ 			<div class="board-member">
+ 				<div class="name">Loren Kole '14</div>
+ 				<div class="title">Finance Coordinator</div>
+ 				<i class="icon-chevron-down"></i>
+ 			</div>
+ 			<div class="board-member">
+ 				<div class="name">Franco Nilo '13</div>
+ 				<div class="title">Fundraising Coordinator</div>
+ 				<i class="icon-chevron-down"></i>
+ 				<div class="bio">
+ 					Franco Nilo is a rising Senior, majoring in Economics in the College of Arts and Sciences, with a minor in Actuarial Sciences in Wharton School of Business. He was born in Santiago, Chile, where he lived until the age of 6, before moving to the great state of New Jersey. He has been involved in Alternate Spring Break since Sophomore year, when he went to Punta Gorda, FL, and then his Junior year he was a leader on the trip to Lexington, VA. Now he is in charge of Fundraising alongside Michael Broder. He is also an avid tennis player and plays for the Club Tennis team at Penn. He plans to be an actuary after college.
+ 				</div>
+ 			</div>
+ 			<div class="board-member">
+ 				<div class="name">Michael Broder '14</div>
+ 				<div class="title">Fundraising Coordinator</div>
+ 				<i class="icon-chevron-down"></i>
+ 				<div class="bio">
+ 					My name is Michael Broder, and I am a rising Junior in the College of Arts and Sciences majoring in Health and Societies (Global Health) and minoring in History. This semester, in addition to working as Co-Fundraising Chair on the board of ASB I am also continuing to intern at LIFT Philadelphia, a nonprofit based in West Philly that works towards ending poverty and expanding opportunity to all people in America. At LIFT's West Philadelphia office, I work one-on-one with clients to help them locate secure and affordable housing, write resumes, cover letters, apply for jobs, and to make ends meet through public benefits. Outside of ASBoard and LIFT, I am also president of a new global health group on campus called GlobeMed. This past summer, I spent 10 weeks conducting community-based health research in Santiago Atitlan, Guatemala with Penn's Guatemala Health Initiative. I love to travel and will only be on the board for ASB in the fall since I am studying abroad in the Spring. I am really looking forward to working with ASB as Co-fundraising Chair to help the group raise funds so it may continue providing Penn students with incredible Alternate Spring and Winter Break experiences. 
+ 				</div>
+ 			</div>
+ 			<div class="board-member">
+ 				<div class="name">Nick Pesta '14</div>
+ 				<div class="title">Travel Coordinator</div>
+ 				<i class="icon-chevron-down"></i>
+ 				<div class="bio">
+ 					Nick Pesta is entering his junior year at Penn. He studies Mechanical Engineering and Applied Mechanics. When not solving problems in the computer lab, Nick is the proud manager of the Huddersfield Town football club as they march triumphantly towards the Premier League (unfortunately, it is a virtual squad). This is his first year on the ASB Board, and he has gone on two amazing ASB trips. In addition to ASB, Nick is involved in the Penn chapter of Engineers Without Borders, and has worked on several projects in Guatemala.
+ 				</div>
+ 			</div>
 
 		</div>
 			
 		<div id="footer">
 			<div id="fblike">
-			<p><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FPenn-Alternate-Spring-Break%2F211447355563070&amp;send=false&amp;layout=box_count&amp;width=190&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=90" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:190px; height:90px;" allowTransparency="true"></iframe>
+			<p><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FPenn-Alternate-Spring-Break%2F211447355563070&amp;send=false&amp;layout=box_count&amp;width=90&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=90" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:90px;" allowTransparency="true"></iframe>
 			</div>	
 		</div>
   	</div>
