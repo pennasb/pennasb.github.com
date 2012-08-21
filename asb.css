@@ -60,12 +60,13 @@ html {
 	width: 500px;
 	background: rgba(255, 255, 255, 0.9);
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	padding: 10px;
+	margin-bottom: 30px;
 }
 
 #content:hover {
-	background: rgba(255, 255, 255, 1);
+	background: rgba(255, 255, 255, 0.9);
 }
 
 #fblike {
@@ -140,9 +141,13 @@ input {
 	cursor: pointer;
 }
 
+.board-member:hover {
+	background: rgba(255, 255, 255, 1);
+}
+
 .name {
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 20px;
 }
 
 .title {
@@ -158,13 +163,6 @@ i {
 }
 
 .bio {
-/*	border-left-style: solid;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-width: 1px;
-	margin-left: 12px;
-	margin-right: 12px;
-	margin-bottom: 12px;
-*/
+	margin-right: 44px;
 	margin-top: 8px;
 }
