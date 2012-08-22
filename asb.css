@@ -18,9 +18,9 @@ html {
 	min-height: 100%;
 }
 
-#fbtest {
+#fblike {
 	position: absolute;
-	bottom: 40px;
+	bottom: 30px;
 	margin-left: 10px;
 }
 
@@ -74,12 +74,6 @@ html {
 
 #content:hover {
 	background: rgba(255, 255, 255, 0.9);
-}
-
-#fblike {
-	position: static;
-	bottom: 0;
-	margin-left: 10px;
 }
 
 #footer {
