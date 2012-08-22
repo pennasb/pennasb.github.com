@@ -15,6 +15,13 @@ html {
 #nav-bar {
 	float: left;
 	position: fixed;
+	min-height: 100%;
+}
+
+#fbtest {
+	position: absolute;
+	bottom: 40px;
+	margin-left: 10px;
 }
 
 #title {
@@ -70,7 +77,7 @@ html {
 }
 
 #fblike {
-	position: absolute;
+	position: static;
 	bottom: 0;
 	margin-left: 10px;
 }
