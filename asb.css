@@ -63,7 +63,8 @@ html {
 }
 
 #content {
-	float: right;
+	float: left;
+	margin-left: 330px;
 	width: 550px;
 	background: rgba(255, 255, 255, 0.9);
 	font-family: 'Josefin Sans', sans-serif;
