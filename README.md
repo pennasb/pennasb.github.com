@@ -2,4 +2,4 @@ pennasb.github.com
 ==================
 
 Penn ASB website
-Andrew Ma, 2012
+Copyright, Andrew Ma, 2012
